@@ -1,0 +1,87 @@
+/*
+Theme Name:     Nick Reid 2012
+Theme URI:      http: //nickreid.com/
+Description:    Nick Reid 2012 - Based on Roots Theme 
+Author:         Nick Reid
+Author URI:     http://nickreid.com/about/
+Template:       roots
+Version:        0.1.0
+*/
+
+body{
+	background:#DDDDDD;
+	color:#444;
+	font-family:"Geneva",verdana,arial,sans-serif;
+	font-size:11px;
+}
+
+#wrap{
+	position:relative;
+	width:auto;
+	margin:0px auto;
+}
+
+.container{
+	width:auto;
+}
+
+.row{
+	margin:0px;
+}
+
+header .container,#main,footer .container{
+	width:300px;
+	margin:0px auto;
+}
+
+header,#content{
+	background:#f1f1f1;
+}
+
+#banner{
+	margin:0px;
+}
+
+#banner #logo{
+	margin:0px;
+	border-bottom:3px solid #AAAAAA;
+}
+
+#banner #nav-main ul{
+	background:#DDD;
+	border-radius:0px;
+	border-bottom:3px solid #AAAAAA;
+	margin:0px;
+}
+#nav-main ul li a{
+	color:#666;
+	text-shadow:0px 0px;
+}
+#nav-main ul li a:hover, #nav-main ul li.current-menu-item > a, #nav-main ul li.current-menu-parent > a, #nav-main ul li.current-menu-ancestor > a, #nav-main ul li:hover > a{
+	color:#AAA;
+}
+
+footer{
+	border:0px;
+	padding:0px;
+}
+
+#content{
+	background-image:url('images/wrapper-bottom.jpg');
+	background-position:bottom center;
+	background-repeat:repeat-x;
+}
+
+#main{
+	background:#FFF;
+}
+#main h1{
+	background:#ED3C95;
+	color:#FFF;
+	padding:7px 10px 3px;
+	text-align:right;
+	border-bottom:3px solid #AAAAAA;
+}
+#main .container.content{
+	margin:3px 7px 7px;
+}
