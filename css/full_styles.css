@@ -29,6 +29,22 @@ header#banner nav{
 	line-height:0.85em;
 }
 
-footer .widget{
+footer .container{
+	width:auto;
+	clear:both;
+	margin:0px 15px 7px;
+}
+
+footer .sidebar{
+	float:right;
+	width:370px;
+}
+footer .sidebar.left{
 	float:left;
+	width:auto;
+}
+footer .sidebar.left .widget{
+	display:block;
+	float:left;
+	width:200px;
 }
