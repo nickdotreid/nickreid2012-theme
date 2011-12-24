@@ -48,3 +48,18 @@ footer .sidebar.left .widget{
 	float:left;
 	width:200px;
 }
+
+
+.home #banner #nickreid_logo{
+	background-image:url('../images/nickreid-logo.png');
+	background-color:#ED3C95;
+	height:230px;
+}
+.home #banner #nickreid_logo,.home #banner nav{
+	position:static;
+	width:370px;
+}
+
+.home #main,.home header#banner .container{
+	width:370px;
+}
