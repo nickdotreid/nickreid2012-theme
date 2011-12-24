@@ -29,6 +29,29 @@ body{
 	margin:0px;
 }
 
+#nickreid_logo{
+	display:block;
+	background:#edbfd6 url('images/nickreid-logo.png') top left no-repeat;
+	width:300px;
+	height:186px;
+	overflow:hidden;
+	text-indent:-3000px;
+	color:#FFF;
+	font-size:3em;
+	line-height:1em;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:3px solid #AAAAAA;
+}
+a#nickreid_logo:hover,a#nickreid_logo.hover{
+	background-color:#ED3C95;
+	text-decoration:none;
+}
+
+header #logo{
+	display:none;
+}
+
 header .container,#main,footer .container{
 	width:300px;
 	margin:0px auto;
