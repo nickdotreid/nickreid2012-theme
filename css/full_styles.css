@@ -1,0 +1,34 @@
+#main,header#banner .container{
+	width:655px;
+}
+
+header#banner .container{
+	position:relative;
+}
+
+header#banner #nickreid_logo{
+	background:#edbfd6 url('../images/nickreid-logo-177x110.png') top left no-repeat;
+	height:110px;
+}
+
+header#banner #nickreid_logo, header#banner nav{
+	position:absolute;
+	left:-70px;
+	top:0px;
+	width:177px;
+}
+header#banner nav{
+	top:113px;
+}
+
+
+#main h1{
+	padding-top:45px;
+	padding-left:140px;
+	font-size:4em;
+	line-height:0.85em;
+}
+
+footer .widget{
+	float:left;
+}
