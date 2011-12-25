@@ -69,4 +69,24 @@ function nr12_home_col_bottom(){
 }
 add_action('roots_main_after',nr12_home_col_bottom);
 
+function nr12_register_front_page_widgets(){
+	register_sidebar(array(
+	  'name' => 'Front_Page_Widgets',
+	  'id' => 'front_page_widgets',
+	  'description' => 'Widgets to show on front page',
+	  'before_title' => '<h2>',
+	  'after_title' => '</h2>'
+	));
+}
+add_action( 'widgets_init', 'nr12_register_front_page_widgets' );
+
+function nr12_front_page_widgets(){
+	if(is_front_page()){
+		echo '<ul class="col">';
+		dynamic_sidebar( 'Front_Page_Widgets' );
+		echo '</ul>';
+	}
+}
+add_action('roots_sidebar_before',nr12_front_page_widgets);
+
 ?>
