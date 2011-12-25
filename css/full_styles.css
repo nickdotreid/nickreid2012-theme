@@ -1,12 +1,12 @@
 @media all and (min-width: 800px) {
 	
 	#top_content_inside{
-		width:1000px;
+		width:755px;
 		margin:0px auto;
 	}
 	
 	#main{
-		width:655px;
+		width:555px;
 	}
 	header#banner .container{
 		width:auto;
@@ -82,5 +82,8 @@
 	#sidebar,#main{
 		float:left;
 	}
-
+	#sidebar{
+		margin:15px 0px 0px 15px;
+		width:185px;
+	}
 }

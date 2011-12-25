@@ -143,3 +143,20 @@ header time,.hentry time,header .byline{
 .home #main h1{
 	display:none;
 }
+
+#sidebar .widget{
+	background:#d8d8d8;
+	border-bottom:3px #FFF solid;
+	border-left:3px #FFF solid;
+	border-radius:7px;
+	padding:7px;
+}
+#sidebar .widget ul{
+	padding:0px;
+	margin:0px;
+}
+#sidebar .widget ul li{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
