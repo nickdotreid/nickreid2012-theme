@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6{
 	border-bottom:3px solid #AAAAAA;
 }
 
-a#nickreid_logo,a#nickreid_logo.hover{
+.home a#nickreid_logo,a#nickreid_logo.hover{
 	background-color:#ED3C95;
 	text-decoration:none;
 }
@@ -62,9 +62,6 @@ header .container,#main,footer .container{
 	margin:0px auto;
 }
 
-header,#content{
-	background:#f1f1f1;
-}
 
 #banner{
 	margin:0px;
@@ -104,6 +101,10 @@ footer ul{
 }
 footer ul li{
 	list-style-type:none;
+}
+
+#top_content{
+	background:#f1f1f1 url('images/wrapper-bottom.jpg') bottom center repeat-x;
 }
 
 #content{

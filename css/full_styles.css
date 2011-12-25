@@ -1,65 +1,74 @@
-#main,header#banner .container{
-	width:655px;
-}
+@media all and (min-width: 800px) {
+	
+	#main,header#banner .container{
+		width:655px;
+	}
 
-header#banner .container{
-	position:relative;
-}
+	header#banner .container{
+		position:relative;
+	}
 
-header#banner #nickreid_logo{
-	background:#edbfd6 url('../images/nickreid-logo-177x110.png') top left no-repeat;
-	height:110px;
-}
+	header#banner #nickreid_logo{
+		background:#edbfd6 url('../images/nickreid-logo-177x110.png') top left no-repeat;
+		height:110px;
+	}
 
-header#banner #nickreid_logo, header#banner nav{
-	position:absolute;
-	left:-70px;
-	top:0px;
-	width:177px;
-}
-header#banner nav{
-	top:113px;
-}
-
-
-#main h1{
-	padding-top:45px;
-	padding-left:140px;
-	font-size:4em;
-	line-height:0.85em;
-}
-
-footer .container{
-	width:auto;
-	clear:both;
-	margin:0px 15px 7px;
-}
-
-footer .sidebar{
-	float:right;
-	width:370px;
-}
-footer .sidebar.left{
-	float:left;
-	width:auto;
-}
-footer .sidebar.left .widget{
-	display:block;
-	float:left;
-	width:200px;
-}
+	header#banner #nickreid_logo, header#banner nav{
+		position:absolute;
+		left:-70px;
+		top:0px;
+		width:177px;
+	}
+	header#banner nav{
+		top:113px;
+	}
 
 
-.home #banner #nickreid_logo{
-	background-image:url('../images/nickreid-logo.png');
-	background-color:#ED3C95;
-	height:230px;
-}
-.home #banner #nickreid_logo,.home #banner nav{
-	position:static;
-	width:370px;
-}
+	#main h1{
+		padding-top:45px;
+		padding-left:140px;
+		font-size:4em;
+		line-height:0.85em;
+	}
 
-.home #main,.home header#banner .container{
-	width:370px;
+	footer .container{
+		width:auto;
+		clear:both;
+		margin:0px 15px 7px;
+	}
+
+	footer .sidebar{
+		float:right;
+		width:370px;
+	}
+	footer .sidebar.left{
+		float:left;
+		width:auto;
+	}
+	footer .sidebar.left .widget{
+		display:block;
+		float:left;
+		width:200px;
+	}
+
+
+	.home #banner #nickreid_logo{
+		background-image:url('../images/nickreid-logo.png');
+		background-color:#ED3C95;
+		height:230px;
+	}
+	.home #banner #nickreid_logo,.home #banner nav{
+		position:static;
+		width:370px;
+	}
+
+	.home #main,.home header#banner .container{
+		width:370px;
+	}
+	
+	.home .col{
+		display:block;
+		float:left;
+	}
+
 }

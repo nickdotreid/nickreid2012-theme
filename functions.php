@@ -44,5 +44,14 @@ function nr12_footer(){
 }
 add_action('roots_footer_inside',nr12_footer);
 
+function nr12_home_col_top(){
+	echo '<div id="top_content">';
+}
+add_action('roots_header_before',nr12_home_col_top);
+
+function nr12_home_col_bottom(){
+	echo '</div>';
+}
+add_action('roots_footer_before',nr12_home_col_bottom);
 
 ?>
