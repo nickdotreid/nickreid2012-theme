@@ -111,6 +111,7 @@ footer ul li{
 	background-image:url('images/wrapper-bottom.jpg');
 	background-position:bottom center;
 	background-repeat:repeat-x;
+	margin-bottom:0px;
 }
 
 #main{

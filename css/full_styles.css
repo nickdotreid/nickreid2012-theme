@@ -1,7 +1,15 @@
 @media all and (min-width: 800px) {
 	
-	#main,header#banner .container{
+	#top_content_inside{
+		width:1000px;
+		margin:0px auto;
+	}
+	
+	#main{
 		width:655px;
+	}
+	header#banner .container{
+		width:auto;
 	}
 
 	header#banner .container{
@@ -68,6 +76,10 @@
 	
 	.home .col{
 		display:block;
+		float:left;
+	}
+	
+	#sidebar,#main{
 		float:left;
 	}
 

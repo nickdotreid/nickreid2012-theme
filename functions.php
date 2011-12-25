@@ -44,14 +44,29 @@ function nr12_footer(){
 }
 add_action('roots_footer_inside',nr12_footer);
 
+function nr12_top_content(){
+	echo '<div id="top_content"><div id="top_content_inside" class="container">';
+}
+add_action('roots_header_before',nr12_top_content);
+
+function nr12_top_content_bottom(){
+	echo '</div></div>';
+}
+add_action('roots_footer_before',nr12_top_content_bottom);
+
+
 function nr12_home_col_top(){
-	echo '<div id="top_content">';
+	if(is_front_page()){
+		echo '<div class="col">';
+	}
 }
 add_action('roots_header_before',nr12_home_col_top);
 
 function nr12_home_col_bottom(){
-	echo '</div>';
+	if(is_front_page()){
+		echo '</div></div></div>';
+	}
 }
-add_action('roots_footer_before',nr12_home_col_bottom);
+add_action('roots_main_after',nr12_home_col_bottom);
 
 ?>

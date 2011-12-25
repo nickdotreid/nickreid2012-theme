@@ -10,6 +10,9 @@
         </div>
       </div><!-- /#main -->
     <?php roots_main_after(); ?>
+
+
+
     <?php roots_sidebar_before(); ?>
       <aside id="sidebar" class="<?php echo $roots_options['sidebar_class']; ?>" role="complementary">
       <?php roots_sidebar_inside_before(); ?>
