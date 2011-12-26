@@ -20,7 +20,7 @@ function nr_register_sidebars(){
 }
 
 function nr12_head(){
-	echo '<link rel="stylesheet" href="/wp-content/themes/nickreid2012/css/full_styles.css" />';
+	echo '<link rel="stylesheet" href="'.get_bloginfo('stylesheet_directory').'/css/full_styles.css" />';
 }
 add_action('roots_head',nr12_head);
 
