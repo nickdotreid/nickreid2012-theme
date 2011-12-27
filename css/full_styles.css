@@ -17,23 +17,27 @@
 	}
 
 	header#banner #nickreid_logo{
-		background:#edbfd6 url('../images/nickreid-logo-177x110.png') top left no-repeat;
-		height:110px;
+		background:#edbfd6 url('../images/nickreid-logo-120x74.png') top left no-repeat;
+		height:74px;
 	}
 
 	header#banner #nickreid_logo, header#banner nav{
 		position:absolute;
 		left:-70px;
 		top:0px;
-		width:177px;
+		width:120px;
 	}
 	header#banner nav{
-		top:113px;
+		top:77px;
+	}
+	header #nav-main ul li a{
+		font-size:14;
+		padding:4px 6px;
 	}
 
 
 	#main h1{
-		padding-top:45px;
+		padding-top:55px;
 		padding-left:140px;
 		font-size:4em;
 		line-height:0.85em;
